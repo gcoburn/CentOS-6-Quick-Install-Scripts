@@ -1,5 +1,6 @@
 #!/bin/bash
 # $1 is the password you set in the command line argument
+# execute this script by curl -s https://raw.githubusercontent.com/gcoburn/CentOS-6-Quick-Install-Scripts/gcoburn-mySQLpass-input/installLAMP.sh | bash /dev/stdin CHANGEPASSWORD
 
 clear
 
