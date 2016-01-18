@@ -10,6 +10,7 @@ yum install -y httpd php mysql mysql-server
 
 chkconfig mysql-server on
 chkconfig httpd on
+chkconfig iptables off
 
 echo restart MySQL
 /etc/init.d/mysqld restart
